@@ -21,5 +21,8 @@ sed "s/quiet splash//" /etc/default/grub > /tmp/grub
 sed "s/GRUB_TIMEOUT=[0-9]/GRUB_TIMEOUT=0/" /tmp/grub > /etc/default/grub
 update-grub
 
+# fix perl -e exit
+echo 'LC_ALL="en_US.utf8"' > /etc/environment
+
 # clean up
 apt-get clean
