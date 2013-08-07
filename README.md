@@ -26,3 +26,7 @@ To add `package.box` with name `debian-71` into vagrant:
 ### Notes
 
 This script basted on original Carl's [repo](https://github.com/cal/vagrant-ubuntu-precise-64) and with some tweaks to be compatible Debian 7.1.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/amiorin/vagrant-debian-wheezy-64/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
